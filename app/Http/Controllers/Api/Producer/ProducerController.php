@@ -34,15 +34,28 @@ class ProducerController extends Controller
 
         $path = public_path('/storage/producers/'.$producer->unique_id);
 
+        // if(!file_exists($path)) {
+        //     mkdir($path);
+        // }
+
+        // $path = public_path('/storage/producers/'.$producer->unique_id.'/pdfs');
+
+        // if(!file_exists($path)) {
+        //     mkdir($path);
+        // }
+
+
         if(!file_exists($path)) {
-            mkdir($path);
+            // mkdir($path);
+            Storage::disk('producers')->makeDirectory($producer->unique_id);
         }
 
         $path = public_path('/storage/producers/'.$producer->unique_id.'/pdfs');
 
         if(!file_exists($path)) {
-            mkdir($path);
+            Storage::disk('producers')->makeDirectory($producer->unique_id.'/pdfs');
         }
+
 
         $this->createTables($producer);
 
