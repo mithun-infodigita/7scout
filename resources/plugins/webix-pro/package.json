@@ -1,0 +1,51 @@
+{
+  "_args": [
+    [
+      "@xbs/webix-pro@6.2.8",
+      "/home/vagrant/code/solaris"
+    ]
+  ],
+  "_from": "@xbs/webix-pro@6.2.8",
+  "_id": "@xbs/webix-pro@6.2.8",
+  "_inBundle": false,
+  "_integrity": "sha512-TKl+hlGKUFDFwTbduA7vOfYT/yQF3wQ/ztV028wvQeFlj/iBSy+SnFtVvoL8hCX4TpfDA8BH3MIzwANqfhnGYg==",
+  "_location": "/@xbs/webix-pro",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@xbs/webix-pro@6.2.8",
+    "name": "@xbs/webix-pro",
+    "escapedName": "@xbs%2fwebix-pro",
+    "scope": "@xbs",
+    "rawSpec": "6.2.8",
+    "saveSpec": null,
+    "fetchSpec": "6.2.8"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://npm.webix.com/@xbs%2fwebix-pro/-/webix-pro-6.2.8.tgz",
+  "_spec": "6.2.8",
+  "_where": "/home/vagrant/code/solaris",
+  "author": {
+    "name": "XB Software"
+  },
+  "description": "Webix UI",
+  "keywords": [
+    "webix",
+    "ui",
+    "widgets"
+  ],
+  "license": "SEE LICENSE IN license.text",
+  "main": "webix.js",
+  "name": "@xbs/webix-pro",
+  "publishConfig": {
+    "registry": "https://npm.webix.com"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "types": "types/webix.d.ts",
+  "version": "6.2.8"
+}
